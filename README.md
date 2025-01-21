@@ -13,7 +13,6 @@
 
 ## FUNZIONALITÀ PRINCIPALI
 - Creazione del ristorante
-
 ![alt text](</readmeImages/creazioneRistorante.gif>)
 
 
@@ -21,14 +20,14 @@
   - modificare il piatto
   - mettere il piatto fuori menù
   - eliminare il piatto
-
-
 ![alt text](</readmeImages/creazionePiatto.gif>)
 
 
-- Visulizzare gli ordini/ordine e gli ordini completati i quali verranno utilizzate per le statistiche
-
-
+- Visulizzare gli ordini/ordine e gli ordini completati i quali verranno utilizzat per le statistiche
 ![alt text](</readmeImages/ordini.png>)
 ![alt text](</readmeImages/singoloOrdine.png>)
 ![alt text](</readmeImages/ordiniCompletati.png>)
+
+
+- Chart che mostra gli ordini e le vendite al mese, statistiche basate sugli ordini completati
+![alt text](</readmeImages/chart.png>)
