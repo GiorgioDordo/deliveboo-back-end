@@ -18,9 +18,9 @@
 
 
 - Creazione del piatto con la possibilità di:
- - modificare il piatto
- - mettere il piatto fuori menù
- - eliminare il piatto
+  - modificare il piatto
+  - mettere il piatto fuori menù
+  - eliminare il piatto
 
 
 ![alt text](</readmeImages/creazionePiatto.gif>)
