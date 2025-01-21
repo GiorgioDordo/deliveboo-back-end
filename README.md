@@ -26,7 +26,9 @@
 ![alt text](</readmeImages/creazionePiatto.gif>)
 
 
-- Pagamento
+- Visulizzare gli ordini/ordine e gli ordini completati i quali verranno utilizzate per le statistiche
 
 
-![alt text](</readmeImages/pagamento.gif>)
+![alt text](</readmeImages/ordini.png>)
+![alt text](</readmeImages/singoloOrdine.png>)
+![alt text](</readmeImages/ordiniCompletati.png>)
