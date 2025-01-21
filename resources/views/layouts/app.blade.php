@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm">
             <div class="container">
 
-                <a class="navbar-brand text-white" href="{{ url('/') }}">
+                <a class="navbar-brand text-white fs-1" href="{{ url('/') }}">
                     Home
                 </a>
 
