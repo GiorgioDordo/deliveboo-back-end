@@ -5,6 +5,7 @@
 <img src="/readmeImages/vuejs-icon.svg"> <img src="/readmeImages/laravel-icon.svg">
 
 #### Breve descrizione del progetto: 
+- Il progetto è un'applicazione web di food delivery sviluppata utilizzando Laravel per il back-office e Vue.js per il front-office. L'obiettivo  principale è fornire agli utenti un'esperienza fluida per ordinare cibo dai ristoranti locali.
 - [Per il front-end andare a questo link](https://github.com/GiorgioDordo/deliveboo-front-end)
 - Statistiche avanzate: Grafici interattivi (Chart.js) per monitorare le vendite e gli ordini completati nel tempo.
 - Backend robusto: Sviluppato con Laravel 10 per una gestione efficiente di ordini, utenti e ristoranti.
