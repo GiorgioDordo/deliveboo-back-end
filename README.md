@@ -12,15 +12,15 @@
 ![alt text](</readmeImages/home-back.png>)
 
 ## FUNZIONALITÀ PRINCIPALI
-- Creazione del ristorante con possibilità di:
+- Creazione del ristorante
 
 ![alt text](</readmeImages/creazioneRistorante.gif>)
 
 
 - Creazione del piatto con la possibilità di:
-- - modificare il piatto
-- - mettere il piatto fuori menù
-- - eliminare il piatto
+ - modificare il piatto
+ - mettere il piatto fuori menù
+ - eliminare il piatto
 
 
 ![alt text](</readmeImages/creazionePiatto.gif>)
