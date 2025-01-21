@@ -138,7 +138,7 @@ class OrderController extends Controller
         $period = CarbonPeriod::create($start, "1 month", $end);
 
         $ordersPerMonth = collect($period)->map(function ($date) use ($restaurant) {
-            $endDate = $date->copy()->endOfDay();
+            $endDate = $date->copy()->endOfMonth();
 
             return [
                 "count" => Order::onlyTrashed()->where("created_at", "<=", $endDate)->where('restaurant_id', $restaurant->id)->count(),
@@ -150,7 +150,7 @@ class OrderController extends Controller
         $labels = $ordersPerMonth->pluck("month")->toArray();
 
         $sellingPerMonth = collect($period)->map(function ($date) use ($restaurant) {
-            $endDate = $date->copy()->endOfDay();
+            $endDate = $date->copy()->endOfMonth();
 
             return [
                 "summ" => Order::onlyTrashed()->where('restaurant_id', $restaurant->id)->where("created_at", "<=", $endDate)->sum('total_price'),
@@ -163,7 +163,7 @@ class OrderController extends Controller
 
         $chart = Chartjs::build()
             ->name("OrdersCharts")
-            ->type("bar")       
+            ->type("bar")
             ->labels($labels)
             ->datasets([
                 [
